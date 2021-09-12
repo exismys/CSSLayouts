@@ -5,6 +5,7 @@
 
 .blog-post {
     width: 100%;
+    margin: auto;
 }
 
 .figure-info {
@@ -29,6 +30,7 @@
 
 .article-figure {
     width: 100%;
+    text-align: center;
 }
 
 .article-figure img {
@@ -39,4 +41,21 @@
     padding: 0px 20px;
     font-family: arial;
     font-style: italic;
+}
+
+@media only screen and (min-width: 1000px) {
+    .blog-post {
+        width: 1000px;
+    }
+
+    .figure-info {
+        width: 50%;
+        float: right;
+    }
+
+    .article-figure {
+        padding: 30px 0px;
+        width: 50%;
+        float: left;
+    }
 }
